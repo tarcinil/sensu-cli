@@ -12,9 +12,9 @@ before_install:
 script:
   - bundle exec rake spec
 
-branches:
-  only:
-  - master
+#branches:
+#  only:
+#  - master
 
 matrix:
   allow_failures:
