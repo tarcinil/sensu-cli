@@ -8,6 +8,7 @@ rvm:
 
 before_install:
   - gem --version
+  - stty cols 80
 
 script:
   - bundle exec rake spec
